@@ -66,38 +66,40 @@ Dengan jutaan lagu yang tersedia di Spotify, penting untuk memahami karakteristi
 
 ### 🔍 Popularitas rata-rata dihitung berdasarkan genre.
 - 
-- ![Gambar1](https://github.com/FebbyNurIdhananto12/BookingHotelBook_Analysis/blob/main/Gambar/AVG%20dan%20ROOM.png)
-- #### Rata-rata ADR Berdasarkan Tipe Kamar
-| Tipe Kamar | Rata-rata ADR |
+- ![Gambar1](https://github.com/iniferdooo/UAS_BIGDATA/blob/main/Gambar/Average%20Daily%20Rate%20(ADR)%20.jpg)
+- #### Rata-rata ADR Berdasarkan genre
+
+|Popularitas| Rata-rata ADR |
 |------------|---------------|
-| A          | 57.64         |
-| B          | 76.00         |
-| C          | 63.73         |
-| D          | 77.47         |
-| E          | 61.69         |
-| F          | 69.83         |
-| G          | 53.80         |
-| H          | 235.00        |
-| I          | 0.00          |  
+| POP        | 75.32         |
+| ROCK       | 68.45         |
+| R&B        | 70.45         |
+| JAZZ       | 62.14         |
+| RAP        | 73.50         |
+| LATIN      | 66.40         | 
 
 
-### 🌍 Analisis Berdasarkan Negara
-- Menemukan 10 negara dengan kontribusi ADR tertinggi.
-- Visualisasi menggunakan bar chart.
-- ![Gambar2](https://github.com/FebbyNurIdhananto12/BookingHotelBook_Analysis/blob/main/Gambar/AVG%20dan%20country.png)
-- #### Top 10 Negara dengan ADR Tertinggi
-| No | Negara | Rata-rata ADR |
-|----|--------|---------------|
-| 1  | CHN    | 129.00        |
-| 2  | MEX    | 121.56        |
-| 3  | IRL    | 98.00         |
-| 4  | ROU    | 93.36         |
-| 5  | BEL    | 89.00         |
-| 6  | GBR    | 87.80         |
-| 7  | ITA    | 66.29         |
-| 8  | PRT    | 64.36         |
-| 9  | DEU    | 60.87         |
-| 10 | FRA    | 59.10         |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### 🌍 Korelasi Fitur Audio dengan Popularitas:
+| Fitur Audio  | Korelasi |
+|--------------|----------|
+| Danceability | 0.42     | 
+| Energy       | 0.35     |
+| Tempo        | -0.15    |
+
 
 ---
 
